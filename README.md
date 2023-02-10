@@ -1,8 +1,11 @@
-# Project 3 - Starter Kit - Symfony
+# Blue Line
 
 ## Presentation
 
-This starter kit is here to easily start a repository for Wild Code School students.
+Blue Line is the third and last project realized during my course at Wild Code School.
+It is a mobile-first app, suggested by La Banque Postale, for digitally-excluded people. Its purpose is to provide them a playful space of tutorials and quizz for them to learn digital tools.
+
+
 
 It's symfony website-skeleton project with some additional library (webpack, fixtures) and tools to validate code standards.
 
@@ -19,7 +22,7 @@ It's symfony website-skeleton project with some additional library (webpack, fix
     * Tasks to check if vendor, .idea, env.local are not versionned,
     * PHP_CodeSniffer, PHPStan and PHPmd with same configuration as GrumPHP.
 
-## Getting Started for Students
+## Getting Started
 
 ### Prerequisites
 
@@ -32,11 +35,6 @@ It's symfony website-skeleton project with some additional library (webpack, fix
 2. Run `composer install`
 3. Run `yarn install`
 4. Run `yarn encore dev` to build assets
-
-### Working
-
-1. Run `symfony server:start` to launch your local php web server
-2. Run `yarn run dev --watch` to launch your local server for assets (or `yarn dev-server` do the same with Hot Module Reload activated)
 
 ### Testing
 
